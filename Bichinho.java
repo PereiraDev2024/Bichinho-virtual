@@ -47,8 +47,8 @@ public class Bichinho {
   {
     System.out.println("Nome: " + nome);
     System.out.println("Fome: " + fome);
-    System.out.println("energia: " + energia);
-    System.out.println("felicidade " + felicidade);
+    System.out.println("Energia: " + energia);
+    System.out.println("Felicidade: " + felicidade);
     System.out.println("Doente: " + doente);
   }
 
@@ -69,6 +69,6 @@ private int limitar(int valor)
 
   private void atualizarDoenca() {
    doente = fome == 100;
-  }
+}
 
 }
